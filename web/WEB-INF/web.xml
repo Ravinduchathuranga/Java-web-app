@@ -2,11 +2,19 @@
 <web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
     <servlet>
         <servlet-name>signIn</servlet-name>
-        <servlet-class>controller.signUp</servlet-class>
+        <servlet-class>controller.SignUp</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SignUp</servlet-name>
+        <servlet-class>controller.SignUp</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>signIn</servlet-name>
         <url-pattern>/signIn</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SignUp</servlet-name>
+        <url-pattern>/SignUp</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

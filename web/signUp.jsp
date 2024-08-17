@@ -13,27 +13,29 @@
         <div class="row">
             <div class="offset-2 col-8 p-5">
                 <h1 class="text-center p-3">Sign In</h1>
-                <div class="row g-2">
-                    <div class="col-12">
-                        <h5>Mobile</h5>
-                        <input type="text" class="form-control">
+                <form action="SignUp" method="POST">
+                    <div class="row g-2">
+                        <div class="col-12">
+                            <h5>Mobile</h5>
+                            <input type="text" class="form-control" name="mobile">
+                        </div>
+                        <div class="col-12">
+                            <h5>Name</h5>
+                            <input type="text" class="form-control" name="name">
+                        </div>
+                        <div class="col-12">
+                            <h5>Country</h5>
+                            <select name="country" class="form-control">
+                                <option value="">Sri Lanka</option>
+                                <option value="">Japan</option>
+                                <option value="">USA</option>
+                            </select>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center">
+                            <button type="submit" class="btn btn-primary">Sign Up</button>
+                        </div>
                     </div>
-                    <div class="col-12">
-                        <h5>Name</h5>
-                        <input type="text" class="form-control">
-                    </div>
-                    <div class="col-12">
-                        <h5>Country</h5>
-                        <select name="" id="" class="form-control">
-                            <option value="">Sri Lanka</option>
-                            <option value="">Japan</option>
-                            <option value="">USA</option>
-                        </select>
-                    </div>
-                    <div class="col-12 d-flex justify-content-center">
-                        <button type="submit" class="btn btn-primary">Sign Up</button>
-                    </div>
-                </div>
+                </form>
             </div>
         </div>
     </div>
