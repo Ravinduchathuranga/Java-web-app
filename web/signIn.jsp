@@ -13,11 +13,11 @@
         <div class="row">
             <div class="offset-2 col-8 p-5">
                 <h1 class="text-center p-3">Sign In</h1>
-                <form action="SignUp" method="POST">
+                <form action="LogIn" method="POST">
                     <div class="row g-2">
                         <div class="col-12">
                             <h5>Mobile</h5>
-                            <input type="text" class="form-control">
+                            <input type="text" class="form-control" name="mobile">
                         </div>                                          
                         <div class="col-12 d-flex justify-content-center">
                             <button type="submit" class="btn btn-primary">Sign Up</button>

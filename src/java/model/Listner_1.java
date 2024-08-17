@@ -7,11 +7,9 @@ import javax.servlet.ServletContextListener;
 public class Listner_1 implements ServletContextListener {
 
     @Override
-    public void contextInitialized(ServletContextEvent sce) {
-                
+    public void contextInitialized(ServletContextEvent sce) {                
         ArrayList<User> userList=new ArrayList<>();
-        sce.getServletContext().setAttribute("userList", userList);
-        
+        sce.getServletContext().setAttribute("userList", userList);        
     }
 
     @Override
