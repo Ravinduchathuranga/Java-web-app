@@ -32,7 +32,7 @@ This project is a simple web application developed using Java Servlets, allowing
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/Ravinduchathuranga/Java-web-app.git
    cd your-repo-name
    ```
 
