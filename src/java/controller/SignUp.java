@@ -6,6 +6,7 @@ package controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -26,10 +27,12 @@ public class SignUp extends HttpServlet {
         String country = req.getParameter("country");
 
         User user = new User(mobile, name, country);
-        
-        ServletContext sc=req.getServletContext();
-        
-        
+
+        ServletContext sc = req.getServletContext();
+
+        ArrayList<User> userList = (ArrayList<User>) sc.getAttribute("userList");
+        sc.setAttribute("userList", user);
+
     }
 
 }
