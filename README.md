@@ -60,7 +60,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 ## Contact
 
-For any inquiries or issues, feel free to contact me at [your.email@example.com].
+For any inquiries or issues, feel free to contact me at [ravicdasanayaka@gmail.com].
 
 ---
 
