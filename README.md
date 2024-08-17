@@ -24,8 +24,8 @@ This project is a simple web application developed using Java Servlets, allowing
 
 ### Prerequisites
 
-- JDK 8 or higher
-- Apache Tomcat 9.0 or higher
+- JDK 8
+- Glassfish 4.1
 
 ### Installation
 
