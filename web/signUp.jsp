@@ -26,9 +26,9 @@
                         <div class="col-12">
                             <h5>Country</h5>
                             <select name="country" class="form-control">
-                                <option value="">Sri Lanka</option>
-                                <option value="">Japan</option>
-                                <option value="">USA</option>
+                                <option>Sri Lanka</option>
+                                <option>Japan</option>
+                                <option>USA</option>
                             </select>
                         </div>
                         <div class="col-12 d-flex justify-content-center">
