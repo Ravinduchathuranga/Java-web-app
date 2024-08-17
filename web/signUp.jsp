@@ -12,7 +12,7 @@
     <div class="container vh-100">
         <div class="row">
             <div class="offset-2 col-8 p-5">
-                <h1 class="text-center p-3">Sign In</h1>
+                <h1 class="text-center p-3">Sign Up</h1>
                 <form action="SignUp" method="POST">
                     <div class="row g-2">
                         <div class="col-12">

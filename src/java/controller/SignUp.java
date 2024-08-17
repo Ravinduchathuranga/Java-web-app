@@ -31,8 +31,8 @@ public class SignUp extends HttpServlet {
         ServletContext sc = req.getServletContext();
 
         ArrayList<User> userList = (ArrayList<User>) sc.getAttribute("userList");
-        sc.setAttribute("userList", user);
-
+        userList.add(user);
+        resp.sendRedirect("signIn.jsp");
     }
 
 }
