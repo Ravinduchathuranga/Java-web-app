@@ -19,6 +19,7 @@
                     <h1 class="text-center">Home</h1>
                     <div class="user-details">
                         <%
+                            //chceking session to make sure there is a valid user loged in
                             if (session.getAttribute("user") != null) {
                                 User user = (User) session.getAttribute("user");
                         %>
