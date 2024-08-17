@@ -24,4 +24,7 @@
     <welcome-file-list>
         <welcome-file>signUp.jsp</welcome-file>
     </welcome-file-list>
+    <listener>
+        <listener-class>model.Listner_1</listener-class>
+    </listener>
 </web-app>
