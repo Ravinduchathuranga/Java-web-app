@@ -43,7 +43,7 @@ This project is a simple web application developed using Java Servlets, allowing
 
 3. **Access the application:**
 
-   - Open a web browser and go to `http://localhost:8080/your-app-name`.
+   - Open a web browser and go to `http://localhost:4848/app-name`.
 
 ## Usage
 
