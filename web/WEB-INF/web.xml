@@ -35,4 +35,8 @@
     <listener>
         <listener-class>model.Listner_1</listener-class>
     </listener>
+    <error-page>
+        <error-code>404</error-code>
+        <location>/error.jsp</location>
+    </error-page>
 </web-app>
